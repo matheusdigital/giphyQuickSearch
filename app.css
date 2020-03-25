@@ -1,0 +1,10 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+#header, #content{
+	display: block;
+	margin: 50px auto;
+	position: relative;
+	width: fit-content;
+	max-width: 700px;
+}	
