@@ -6,7 +6,7 @@ $('#searchForm').submit(function( event )  {
 });
 
 function giphySearch(keyword) {
-	$.get("http://api.giphy.com/v1/gifs/search?q="+keyword+"&api_key=IOFNyEzqhGPFgqVsda94eXxiMR6KszIe&limit=6", function( data ) {
+	$.get("https://api.giphy.com/v1/gifs/search?q="+keyword+"&api_key=IOFNyEzqhGPFgqVsda94eXxiMR6KszIe&limit=6", function( data ) {
 		$('#results').html('');
 		$.each(data.data, function (key, item) {
 			console.log(item);
